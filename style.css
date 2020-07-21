@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    align-items: center;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+#user-text{
+    width: 21em;
+    height: 2em;
+    align-self: center;
+    font-size: 1.5em;
+    padding: 0.3em;
+    text-align: center;
+}
+.btn{
+    height: 2em;
+    border-radius: 0.3em;
+    border: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+    background-color:#BC63E2;
+}
+
+#delete{
+    height: 1.8em;
+}
+
+#gramo{
+    font-size: 1.2em;
+    width: 5em;
+    text-align: center;
+    font-weight: bold;
+}
+#porcentaje{
+    font-size: 1.2em;
+    width: 5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.extra{
+    max-width: 600em;
+    justify-content: space-evenly;
+    margin: 0.5em;
+}
+.extra-text{
+    width: 10em;
+    font-size: 1.5em;
+    text-align: center;
+}
+.extra-cost{
+    width: 6em;
+    font-size: 1.5em;
+    text-align: center;
+}
