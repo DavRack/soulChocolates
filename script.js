@@ -5,8 +5,8 @@ const valorLetra = {
 "D":38,
 "E":25, 
 "F":24,
-"G":30, // en espera de valor real
-"H":30, // en espera de valor real
+"G":30, //
+"H":30, //
 "I":19,
 "J":22,
 "K":30, //
@@ -62,7 +62,7 @@ function calculate(test){
 
     total = costoCholate+costoExtra
     
-    precio = total + (total*(porcentaje/100))
+    precio = costoCholate + (costoCholate*(porcentaje/100)) + costoExtra
 
     document.getElementById("total").innerHTML = ``
     document.getElementById("total").innerHTML += `<h2> Precio al cliente: ${precio} </h2>`
