@@ -4,7 +4,7 @@ const valorLetra = {
 "C":33,
 "D":38,
 "E":25, 
-"F":30, // en espera de valor real
+"F":24,
 "G":30, // en espera de valor real
 "H":30, // en espera de valor real
 "I":19,
@@ -12,7 +12,7 @@ const valorLetra = {
 "K":30, //
 "L":20,
 "M":49,
-"N":30, //
+"N":37,
 "Ñ":30, //
 "O":34,
 "P":30, //
@@ -21,11 +21,11 @@ const valorLetra = {
 "S":29,
 "T":25,
 "U":30, //
-"V":30, //
+"V":36, 
 "W":30, //
 "X":30, //
 "Y":30, //
-"Z":30  //
+"Z":26  
 }
 function calculate(test){
     console.log(test)
